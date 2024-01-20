@@ -9,7 +9,8 @@ const gameImg = document.getElementById('detail-image')
 const gameName = document.getElementById('detail-name')
 const gameDescript = document.getElementById('detail-description')
 const gameDev = document.getElementById('developer-display')
-// console.log(gameDev)
+const gameForm = document.getElementById('new-game')
+// console.log(gameForm)
 
 const renderGames = games => {
     games.forEach(renderGame)
@@ -32,3 +33,26 @@ const renderGame = game => {
     gameList.append(img)
 }
 
+
+
+
+
+
+
+//CODE NOT WORKING YET. WORK ON THIS TO GET NEW GAME INFOR IN THE FORM!!!!!!
+// const newGameHandler = e => {
+//     e.preventDefault()
+    
+//     const newGame = {
+//         title: e.target.title.value,
+//         short_description: e.target.description.value,
+//         thumbnail: e.target.image.value,
+//         developer: e.target['new-developer'].value,
+        
+//     }
+    
+//     renderGame(newGame)
+//     e.target.reset()
+    
+// }
+// gameForm.addEventListener('submit', newGameHandler)
