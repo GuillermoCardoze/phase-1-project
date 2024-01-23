@@ -27,11 +27,11 @@ Open the App: Open index.html in your web browser to launch the Game Uploader ap
 
 1. Learned how to get my local db.json and run my json server to get the information needed to run the app.
 
-Having to create a fetch and collect the data then show it in browser. 
+2. Having to create a fetch and collect the data then show it in browser. 
 
-Creating functions to us them as callbacks, so that they can be refered to in other functions. 
+3. Creating functions to us them as callbacks, so that they can be refered to in other functions. 
 
-Learned how to add event listeners to images to create an action on the app.
+4. Learned how to add event listeners to images to create an action on the app.
 
 ## Acknowledgments
 
