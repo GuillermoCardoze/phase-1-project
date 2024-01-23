@@ -19,7 +19,8 @@ New game to bame bar: Create new Game by filling out the form with a name, image
 ## Running the app 
 To run the Game Uploader app, follow these steps:
 
-Run the JSON Server: json-server --watch db.json in your local console. This will start the JSON server, and your Games data will be served from http://localhost:3000/games.
+Run the JSON Server: json-server --watch db.json in your local console. 
+This will start the JSON server, and your Games data will be served from http://localhost:3000/games.
 
 Open the App: Open index.html in your web browser to launch the Game Uploader app.
 
